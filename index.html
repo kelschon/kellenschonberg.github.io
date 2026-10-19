@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kellen Schonberg | Program Management Consulting</title>
+    <title>Kellen Schonberg | Technical Program Management</title>
+    <meta name="description" content="Technical program management for hardware that ships. Senior TPM with 15 years across agricultural robotics, consumer electronics, and aerospace. Based in Seattle.">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
@@ -211,57 +212,49 @@
             transform: translateY(-5px);
         }
 
-        .contact-form {
+        .contact-card {
             max-width: 700px;
             margin: 0 auto;
             background: var(--card-bg);
             padding: 3rem;
             border-radius: 16px;
             backdrop-filter: blur(10px);
+            text-align: center;
         }
 
-        .form-group {
-            margin-bottom: 1.5rem;
+        .contact-lead {
+            font-size: 1.1rem;
+            margin-bottom: 2rem;
         }
 
-        .form-group label {
-            display: block;
-            margin-bottom: 0.5rem;
+        .contact-links {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        .contact-links a {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+            color: var(--primary-color);
+            text-decoration: none;
             font-weight: 500;
-        }
-
-        .contact-form input,
-        .contact-form textarea {
-            width: 100%;
-            padding: 1rem;
+            font-size: 1.05rem;
+            padding: 0.75rem 1.5rem;
             border: 1px solid rgba(0, 0, 0, 0.1);
             border-radius: 8px;
-            font-family: 'Space Grotesk', sans-serif;
-            background: rgba(255, 255, 255, 0.9);
-            transition: border-color 0.3s ease;
+            transition: border-color 0.3s ease, transform 0.3s ease;
         }
 
-        .contact-form input:focus,
-        .contact-form textarea:focus {
-            outline: none;
+        .contact-links a:hover {
             border-color: var(--accent-color);
-        }
-
-        .btn {
-            background: linear-gradient(135deg, var(--gradient-start), var(--gradient-end));
-            color: white;
-            padding: 1rem 2rem;
-            border: none;
-            border-radius: 8px;
-            cursor: pointer;
-            font-size: 1rem;
-            font-weight: 500;
-            transition: transform 0.3s ease;
-            width: 100%;
-        }
-
-        .btn:hover {
             transform: translateY(-2px);
+        }
+
+        .contact-links i {
+            color: var(--accent-color);
         }
 
         footer {
@@ -306,8 +299,8 @@
 
     <section class="hero">
         <div class="hero-content">
-            <h1>Technical Program Management Excellence</h1>
-            <p>Leveraging experience from Apple, NASA, and innovative startups to deliver transformative program management solutions for complex technical initiatives</p>
+            <h1>Technical program management for hardware that ships</h1>
+            <p>Fifteen years taking complex physical products from prototype to the field &mdash; most recently as Senior Technical Program Manager at Carbon Robotics, running LaserWeeder programs and field operations through the company's first $100M in revenue and more than 100 units deployed. Previously Apple, NASA, and early-stage hardware startups. Based in Seattle.</p>
         </div>
     </section>
 
@@ -315,28 +308,29 @@
         <h2>Consulting Services</h2>
         <div class="services">
             <div class="service-card">
-                <h3>Product Development Strategy</h3>
-                <p>Expert guidance in product roadmap development, commercialization strategy, and go-to-market planning, backed by experience leading innovative products from concept to launch at Apple and CreateMe.</p>
+                <h3>Field Deployment &amp; Support Operations</h3>
+                <p>Standing up the systems that keep deployed hardware working: field team structure, escalation paths, issue triage, and the feedback loop back into engineering. Built and ran this at Carbon Robotics across a fleet scaling past 100 units.</p>
             </div>
             <div class="service-card">
-                <h3>Program Management Infrastructure</h3>
-                <p>Implementation of comprehensive program management frameworks including JIRA workflows, Confluence documentation, and OKR/KPI systems for optimal project execution and tracking.</p>
+                <h3>Hardware Program Management</h3>
+                <p>NPI and launch programs for physical products &mdash; schedule, cross-functional dependencies, build readiness, and the trade-off calls between scope, cost, and ship date. From iPhone accessory development at Apple to agricultural robotics at Carbon.</p>
             </div>
             <div class="service-card">
-                <h3>Technical Program Optimization</h3>
-                <p>Streamline engineering processes and resource allocation while maintaining budget constraints, drawing from experience managing complex programs at major technology companies.</p>
+                <h3>Program Infrastructure</h3>
+                <p>Roadmap and planning cadence, OKR/KPI systems, and JIRA/Confluence workflows for teams that have outgrown ad-hoc coordination. Practical implementation, not a framework lecture.</p>
             </div>
         </div>
     </section>
 
     <section id="experience" class="section">
         <h2>Professional Experience</h2>
-        <p>With over a decade of experience spanning aerospace, consumer electronics, and innovative startups, I bring a unique blend of technical expertise to help launch companies into the public domain.</p>
+        <p>Fifteen years across agricultural robotics, consumer electronics, and aerospace &mdash; consistently on programs where the hardware has to work in the real world, not just in the lab.</p>
         <ul class="experience-list">
-            <li>Led iPhone 12 Clear Case development at Apple, reducing timeline by 40%</li>
-            <li>Managed deployment of 3D modeling platform for Williams Sonoma at Outward Inc</li>
-            <li>Developed autonomous drone systems and CubeSat configurations at NASA</li>
-            <li>Spearheaded commercialization of innovative HPEP Fracture System at Petram Technologies</li>
+            <li><strong>Carbon Robotics</strong> &mdash; Senior Technical Program Manager (2025&ndash;2026). Owned the active program roadmap for LaserWeeder and managed field teams through scale-up past 100 units deployed and the company's first $100M in revenue.</li>
+            <li><strong>Apple</strong> &mdash; Led iPhone 12 Clear Case development, reducing timeline by 40%.</li>
+            <li><strong>Outward Inc.</strong> &mdash; Managed deployment of a 3D modeling platform for Williams Sonoma.</li>
+            <li><strong>Petram Technologies / Gotham Meridian Group</strong> &mdash; Spearheaded commercialization of the HPEP Fracture System.</li>
+            <li><strong>NASA</strong> &mdash; Developed autonomous drone systems and CubeSat configurations.</li>
         </ul>
     </section>
 
@@ -364,25 +358,23 @@
 
     <section id="contact" class="section">
         <h2>Let's Connect</h2>
-        <form class="contact-form">
-            <div class="form-group">
-                <label for="name">Name</label>
-                <input type="text" id="name" required>
+        <!-- The previous contact form had no action attribute and no JS handler:
+             submissions were silently discarded. Replaced with direct contact details.
+             To add a working form later, use a third-party endpoint (e.g. Formspree)
+             and set it as the form's action - GitHub Pages is static and cannot
+             process form submissions on its own. -->
+        <div class="contact-card">
+            <p class="contact-lead">Open to senior technical program management roles in the Seattle area, and taking on select fractional and advisory engagements.</p>
+            <div class="contact-links">
+                <!-- Swap to kellen@kellenschonberg.com once domain forwarding is set up and tested -->
+                <a href="mailto:kellenschonberg@gmail.com"><i class="fa-solid fa-envelope"></i> kellenschonberg@gmail.com</a>
+                <a href="https://www.linkedin.com/in/kellen-schonberg/" target="_blank" rel="noopener"><i class="fa-brands fa-linkedin"></i> linkedin.com/in/kellen-schonberg</a>
             </div>
-            <div class="form-group">
-                <label for="email">Email</label>
-                <input type="email" id="email" required>
-            </div>
-            <div class="form-group">
-                <label for="message">Message</label>
-                <textarea id="message" rows="5" required></textarea>
-            </div>
-            <button type="submit" class="btn">Send Message</button>
-        </form>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Kellen Schonberg. All rights reserved.</p>
+        <p>&copy; 2026 Kellen Schonberg. All rights reserved.</p>
     </footer>
 </body>
 </html>
